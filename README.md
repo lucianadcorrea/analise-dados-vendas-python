@@ -1,20 +1,23 @@
-import pandas as pd
+# 📊 Análise de Dados de Vendas com Python
 
-# Criando dados fictícios de vendas
-dados = {
-    'Produto': ['A', 'B', 'C', 'A', 'B', 'C'],
-    'Quantidade': [10, 15, 7, 20, 5, 12],
-    'Preco': [100, 150, 200, 100, 150, 200]
-}
+## 🔍 Objetivo
+Realizar uma análise simples de dados de vendas para identificar padrões e gerar insights que apoiem a tomada de decisão.
 
-df = pd.DataFrame(dados)
+## 🛠 Tecnologias utilizadas
+- Python
+- Pandas
 
-# Criando coluna de faturamento
-df['Faturamento'] = df['Quantidade'] * df['Preco']
+## 📈 O que foi feito
+- Criação de base de dados fictícia
+- Tratamento e organização dos dados
+- Cálculo de faturamento
+- Identificação do produto mais vendido
 
-# Análise simples
-faturamento_total = df['Faturamento'].sum()
-produto_mais_vendido = df.groupby('Produto')['Quantidade'].sum().idxmax()
+## 📊 Resultados
+- Cálculo do faturamento total
+- Identificação de padrões de vendas
+- Simulação de análise de dados aplicada ao negócio
 
-print("Faturamento total:", faturamento_total)
-print("Produto mais vendido:", produto_mais_vendido)
+## 🚀 Como executar
+1. Instalar o Python
+2. Instalar a biblioteca pandas:
