@@ -1,7 +1,7 @@
 # 📊 Análise de Dados de Vendas com Python
 
 ## 🔍 Objetivo
-Realizar uma análise simples de dados de vendas para identificar padrões e gerar insights que apoiem a tomada de decisão.
+Realizar uma análise de dados de vendas para identificar padrões e gerar insights que apoiem a tomada de decisão.
 
 ## 🛠 Tecnologias utilizadas
 - Python
@@ -22,17 +22,5 @@ Realizar uma análise simples de dados de vendas para identificar padrões e ger
 1. Instalar o Python  
 2. Instalar a biblioteca pandas:
 
+```bash
 pip install pandas
-
-3. Executar o arquivo:
-
-python analise_vendas.py
-
-## 📊 Exemplo de saída
-
-Faturamento total: 8300  
-Produto mais vendido: A
-
-## 💡 Insight gerado
-
-A análise permite identificar rapidamente o faturamento total e o produto com maior volume de vendas, simulando uma aplicação prática de análise de dados para apoio à tomada de decisão em negócios.
