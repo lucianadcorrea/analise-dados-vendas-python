@@ -1,3 +1,7 @@
+## 📁 Sobre o projeto
+
+Este projeto foi desenvolvido como parte dos meus estudos em análise de dados, com foco na aplicação prática de Python para resolução de problemas reais.
+
 # 📊 Análise de Dados de Vendas com Python
 
 ## 🔍 Objetivo
